@@ -2,9 +2,10 @@
 
 ### navigation
 
-- [arch distrobox guide](docs/distrobox_fedora.md) (recommended)
+- main docs page (you are here)
+- [arch distrobox guide, recommended](docs/distrobox_fedora.md)
 - [fedora distrobox guide](docs/distrobox_arch.md)
-- [nivm config repo](https://github.com/gmankab/nvim_config)
+- [neovim config lua repo](https://github.com/gmankab/nvim_config)
 
 ### docs
 
