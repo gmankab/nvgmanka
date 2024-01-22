@@ -1,7 +1,12 @@
 ## gmanka's neovim and neovide config
 
+### navigation
+
 - [arch distrobox guide](docs/distrobox_fedora.md) (recommended)
 - [fedora distrobox guide](docs/distrobox_arch.md)
+- [nivm config repo](https://github.com/gmankab/nvim_config)
+
+### docs
 
 this nvim config has lot of dependencies, so better way is to use this all inside distrobox, and not shit in your system
 
