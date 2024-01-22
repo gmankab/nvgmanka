@@ -1,5 +1,12 @@
 ## how to install gmanka's neovim and neovide config in arch distrobox
 
+### navigation
+
+- [main docs page](https://github.com/gmankab/nvgmanka)
+- arch distrobox guide, recommended, you are here
+- [fedora distrobox guide](https://github.com/gmankab/nvgmanka/blob/main/docs/distrobox_fedora.md)
+- [neovim config lua repo](https://github.com/gmankab/nvim_config)
+
 ### configuring distrobox
 
 1. [install distrobox](https://github.com/89luca89/distrobox#installation)
