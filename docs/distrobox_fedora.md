@@ -11,7 +11,7 @@
 
 1. [install distrobox](https://github.com/89luca89/distrobox#installation)
 2. reboot
-3. create and enter arch distrobox:
+3. create and enter fedora distrobox:
 
 ```shell
 distrobox create -i fedora:39 fedora

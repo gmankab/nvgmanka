@@ -14,21 +14,21 @@
 3. create and enter arch distrobox:
 
 ```shell
-distrobox create -i fedora:39 fedora
-distrobox enter fedora
+distrobox create -i docker.io/archlinux/archlinux:latest arch
+distrobox enter arch
 ```
 
 ### install neovim and config
 
 ```shell
-sudo pacman -Syu --noconfim neovim git wl-clipboard gcc npm ripgrep fd
+sudo pacman -Syu --noconfirm neovim git wl-clipboard gcc npm ripgrep fd
 git clone --depth 1 https://github.com/gmankab/nvim_config ~/.config/nvim
 ```
 
 ### install neovide and config
 
 ```shell
-sudo pacman -Syu --noconfim libxkbcommon neovide
+sudo pacman -Syu --noconfirm libxkbcommon neovide
 curl -L github.com/gmankab/nvgmanka/blob/main/.config/neovide/config.toml -o ~/.config/neovide/config.toml --create-dirs
 ```
 
