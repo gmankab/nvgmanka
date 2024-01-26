@@ -29,6 +29,6 @@ git clone --depth 1 https://github.com/gmankab/nvim_config ~/.config/nvim
 
 ```shell
 sudo pacman -Syu --noconfirm libxkbcommon neovide
-curl -L github.com/gmankab/nvgmanka/blob/main/.config/neovide/config.toml -o ~/.config/neovide/config.toml --create-dirs
+curl -L raw.githubusercontent.com/gmankab/nvgmanka/main/.config/neovide/config.toml -o ~/.config/neovide/config.toml --create-dirs
 ```
 

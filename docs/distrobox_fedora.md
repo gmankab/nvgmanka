@@ -35,6 +35,6 @@ curl -L github.com/neovide/neovide/releases/latest/download/neovide-linux-x86_64
 tar -xzf /tmp/neovide.tar.gz -C /tmp
 chmod +x /tmp/neovide
 sudo cp /tmp/neovide /bin/neovide
-curl -L github.com/gmankab/nvgmanka/blob/main/.config/neovide/config.toml -o ~/.config/neovide/config.toml --create-dirs
+curl -L raw.githubusercontent.com/gmankab/nvgmanka/main/.config/neovide/config.toml -o ~/.config/neovide/config.toml --create-dirs
 ```
 
