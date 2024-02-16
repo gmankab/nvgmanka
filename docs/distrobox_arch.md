@@ -3,7 +3,7 @@
 ### navigation
 
 - [main docs page](https://github.com/gmankab/nvgmanka)
-- arch distrobox guide, recommended, you are here
+- arch distrobox guide, you are here
 - [neovim config lua repo](https://github.com/gmankab/nvim_config)
 
 ### configuring distrobox
