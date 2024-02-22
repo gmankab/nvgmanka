@@ -18,5 +18,4 @@ it's recommended to use arch distrobox, no matter what host system you have
 
 the reason is that arch maintainers are packaging neovide, and you can install neovide from arch repos
 
-on fedora there are three copr repos with neovide, but all mainteiners abandoned it, so in the guide for fedora distrobox we just downloading neovide from github releases
-
+on fedora there are three copr repos with neovide, but all mainteiners abandoned it
