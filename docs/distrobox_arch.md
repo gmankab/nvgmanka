@@ -13,14 +13,14 @@
 3. create and enter arch distrobox:
 
 ```shell
-distrobox create -i docker.io/archlinux/archlinux:latest arch
+distrobox create -i ghcr.io/ublue-os/arch-distrobox arch
 distrobox enter arch
 ```
 
 ### install neovim and config
 
 ```shell
-sudo pacman -Syu --noconfirm neovim git wl-clipboard gcc npm ripgrep fd
+sudo pacman -Syu --noconfirm --needed neovim git wl-clipboard gcc npm ripgrep fd
 git clone --depth 1 https://github.com/gmankab/nvim_config ~/.config/nvim
 ```
 
@@ -35,7 +35,7 @@ cp /tmp/jbm/JetBrainsMonoNerdFont-Regular.ttf ~/.local/share/fonts/jbm.ttf
 ### install neovide and config
 
 ```shell
-sudo pacman -Syu --noconfirm libxkbcommon neovide
+sudo pacman -Syu --noconfirm --needed libxkbcommon neovide
 curl -L raw.githubusercontent.com/gmankab/nvgmanka/main/.config/neovide/config.toml -o ~/.config/neovide/config.toml --create-dirs
 ```
 
